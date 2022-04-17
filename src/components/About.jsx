@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsCloudDownload } from 'react-icons/bs';
+import dcervellon_resume from '../assets/david-cervellon-resume.pdf';
 
 const About = () => {
   return (
@@ -52,7 +53,8 @@ const About = () => {
 
             <div>
               <a
-                href="https://drive.google.com/file/d/1z43m4Utl9VXdVyP06TLHJNabSXPnn_Y5/view?usp=sharing"
+                download={dcervellon_resume}
+                href={dcervellon_resume}
                 target="_blank"
                 rel="noopener noreferrer"
               >

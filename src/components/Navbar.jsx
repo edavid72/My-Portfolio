@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { SiDevpost } from 'react-icons/si';
 import { Link } from 'react-scroll';
 import profile from '../assets/profile.jpg';
+import dcervellon_resume from '../assets/david-cervellon-resume.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -130,8 +131,7 @@ const Navbar = () => {
           {/* Personal Resume */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#787A91]">
             <a
-              href="https://drive.google.com/file/d/1z43m4Utl9VXdVyP06TLHJNabSXPnn_Y5/view?usp=sharing"
-              target="_blank"
+              href={dcervellon_resume}
               rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
