@@ -15,9 +15,8 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2F333F] text-white">
       <div className="w-full flex items-center">
-        <SiDevpost size={35} color={'#2FA4FF'} />
-
         <img src={profile} alt="profile_photo" className="ml-2 profile" />
+        <SiDevpost size={35} color={'#2FA4FF'} />
       </div>
 
       {/* Menu */}
